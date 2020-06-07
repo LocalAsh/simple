@@ -14,6 +14,10 @@ html {
     background: #f3f1f1;
 }
 
+main {
+    min-height: 47vh;
+}
+
 .main__details {
     display: flex;
     flex-direction: column;
@@ -38,3 +42,17 @@ html {
     margin: 0.5rem;
     padding: 0.5rem;
 }
+
+/* .writing {
+    text-align: center;
+    border: 1px solid #c7c5c2;
+}
+
+.writing__header {
+    text-decoration: underline;
+}
+
+.writing_items {
+    list-style: lower-latin;
+    list-style-position: inside;
+} */
