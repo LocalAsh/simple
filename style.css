@@ -10,9 +10,20 @@
     background: #f3f1f1;
 }
 
-main {
-    min-height: 90vh;
+header ul {
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 20px;
 }
+
+header li {
+    list-style: none;
+    vertical-align: middle;
+}
+
+/* main {
+    min-height: 90vh;
+} */
 
 .main__details {
     display: flex;
@@ -53,6 +64,7 @@ main {
 footer {
     text-align: center;
     color: #111010;  
+    margin: 20px;
 }
 
 footer i {
