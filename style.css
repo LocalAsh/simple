@@ -21,10 +21,6 @@ header li {
     vertical-align: middle;
 }
 
-/* main {
-    min-height: 90vh;
-} */
-
 .main__details {
     display: flex;
     flex-direction: column;
