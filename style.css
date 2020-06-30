@@ -13,12 +13,17 @@
 header ul {
     display: flex;
     flex-flow: row-reverse;
-    margin: 20px;
+    margin: 1.2rem;
 }
 
 header li {
     list-style: none;
-    vertical-align: middle;
+    margin-left: 0.5rem;
+    text-decoration: underline;
+}
+
+li > i {
+    margin: 0.2rem;
 }
 
 .main__details {
@@ -63,6 +68,3 @@ footer {
     margin: 20px;
 }
 
-footer i {
-    vertical-align: middle;
-}
